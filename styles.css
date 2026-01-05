@@ -186,3 +186,39 @@ html,body{
 a:focus, button:focus, input:focus, textarea:focus{ outline: 3px solid var(--focus); outline-offset:3px; border-radius:8px; }
 .small{ font-size:0.85rem; }
 .muted{ color:var(--muted); }
+
+
+.chat-window {
+  background: #fff;
+  border-radius: 12px;
+  padding: 12px;
+  max-height: 320px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  max-width: 85%;
+  font-size: 14px;
+}
+
+.message.user {
+  background: #ffe1e6;
+  margin-left: auto;
+  text-align: right;
+}
+
+.message.bot {
+  background: #f3f4f6;
+}
+
+.dot.online {
+  background: #22c55e;
+}
+
+.dot.offline {
+  background: #ef4444;
+}
